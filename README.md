@@ -1,2 +1,2 @@
 # Practicing-Code
-This is main used for personal code practice.
+This is mainly used for personal code practice.
