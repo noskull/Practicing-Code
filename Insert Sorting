@@ -1,0 +1,17 @@
+// Insert Sorting Practice.
+// In JAVA
+// Change the array into ascenting order.
+
+public Class insertSort(){
+    public void insertSort(int[] input){
+        for(int index = 0; index < input.length - 1; index++){
+            int currentNum = input[index];
+            int checkIndex = index;
+            while(checkIndex > 0 && input[checkIndex - 1] > currentNum){
+                input[checkIndex] = input[checkIndex - 1];
+                checkIndex--;
+            }
+            input[checkIndex] = currentNum;
+        }
+    }
+}
